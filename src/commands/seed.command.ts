@@ -145,7 +145,7 @@ export class SeedCommand implements CommandModule {
     }
 
     console.log('👍 ', gray.underline(`Finished Seeding`))
-    exit(0) // tell yargs we want to exit explicitly, we're done
+    process.exit(0) // tell yargs we want to exit explicitly, we're done
   }
 }
 
